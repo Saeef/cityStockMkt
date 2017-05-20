@@ -56,14 +56,4 @@ Adding an email capture form will make the call to action more prominent and wil
 //cdn.optimizely.com/img/153957092/92b91f66e86f431982bcd8366ffe6966.png
 //cdn.optimizely.com/img/153957092/6c64b72f53594f9897484470818f6f0a.png
 
-
-
-
-
-
-
-
-
-
-# cityStockMkt
-# cityStockMkt
+:100:
