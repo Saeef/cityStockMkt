@@ -32,7 +32,7 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 <kbd>mobile</kbd>  :mag:            
- ![](/src/mobilev1.png)
+ ![](/src/Stock-Market V1.png)
 
 <kbd>desktop</kbd> :mag:          
 ![](/src/desktopv1.png)
@@ -57,7 +57,6 @@ Adding an email capture form will make the call to action more prominent and wil
 //cdn.optimizely.com/img/153957092/6c64b72f53594f9897484470818f6f0a.png
 
 
-//cdn.optimizely.com/img/153957092/43b41322f92143c196e54e528458ee39.png
 
 
 
@@ -67,6 +66,3 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 
-
-# cityStockMkt
-# cityStockMkt
