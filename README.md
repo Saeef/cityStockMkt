@@ -2,17 +2,17 @@
 #### Landing Page Hero Enhancement - Stock Market
 
 ### evidence
-Some of the key information on the page is hidden below the fold, therefore users who do not scroll will miss this information
+Bounce rate on this landing page is high(70%) suggesting users are not seeing what they expect to see or not engaged by what they're seeing.
 
 ### pages
-:round_pushpin:  www.cityindex.co.uk/trading/spread-betting-cfd-trading/
+:round_pushpin:  www.cityindex.co.uk/trading/stock-market/
 
 ### hypothesis
 making use of the space on the right hand side of the hero image will shorten and put all the selling points in front of the user without having to scroll.  
 Adding an email capture form will make the call to action more prominent and will lead to more people completing live account application form
 
 ### targeting
-:round_pushpin: https://www.cityindex.co.uk/trading/spread-betting-cfd-trading/        
+:round_pushpin: https://www.cityindex.co.uk/trading/stock-market/        
 :round_pushpin: https://www.applyforanaccount.cityindex.co.uk/ciuk/sbcfd-step-1.aspx
 
 ### devices
