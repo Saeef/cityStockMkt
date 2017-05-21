@@ -47,22 +47,6 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 
-### spread betting icons(87x41)
-:small_blue_diamond: src1:  
-//cdn.optimizely.com/img/153957092c84d833286fd4611b66e587611edc8a4.png      
-:small_blue_diamond: src2: 
-//cdn.optimizely.com/img/153957092/254f7eeefefa487ea5f06e9a51c89027.png       
-:small_blue_diamond: src3:
-//cdn.optimizely.com/img/153957092/e069819b59474dfb897d387efe1f6763.png      
-:small_blue_diamond: src4: 
-//cdn.optimizely.com/img/153957092/3407bd50e311448e8e822aa345ccdbbc.png   
-
-### alpha channel
-//cdn.optimizely.com/img/153957092/7f27a97c11d5450c8c125396ba6332ac.png
-//cdn.optimizely.com/img/153957092/f90c13af55a948bf901b23d736d720ee.png
-//cdn.optimizely.com/img/153957092/92b91f66e86f431982bcd8366ffe6966.png
-//cdn.optimizely.com/img/153957092/6c64b72f53594f9897484470818f6f0a.png
-
 
 
 
