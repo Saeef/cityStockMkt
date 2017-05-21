@@ -26,13 +26,15 @@ Adding an email capture form will make the call to action more prominent and wil
 - IE10+
 
 
-### remains to be done
+### remains to be done (flickering background image/background timing)
 - variation one:
   + yellow icons for first row
   + yellow icons for second row
   + background image for desktop
 - variation two:
-  + all.
+  + yellow 1,2,3 circles first row
+  + yellow icons second row mobile
+  + background image hero desktop
 
 
 
