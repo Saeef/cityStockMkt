@@ -82,6 +82,26 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 
+### variation 2
+- one black
+//cdn.optimizely.com/img/153957092/99c0366f29874314813cc8735610e611.png
+- two black
+//cdn.optimizely.com/img/153957092/bbd6f02b222c4e30b74bbd4341088233.png
+- tree black
+//cdn.optimizely.com/img/153957092/c1f999668d8845eb8d455368f3fe544b.png
+
+
+- one yellow
+//cdn.optimizely.com/img/153957092/f309ecc40c3440958b63734178a32cdb.png
+- two yellow
+//cdn.optimizely.com/img/153957092/9d016b237bcb45f4b4e2acb21889fc19.png
+- three yellow
+//cdn.optimizely.com/img/153957092/36b229c4acc645488e78751c2f0533f2.png
+
+
+
+
+
 
 
 
