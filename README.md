@@ -47,6 +47,40 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 
+### image assets
+- one
+//cdn.optimizely.com/img/153957092/1b82b6049272458ba8f316cf70bab749.png
+- two
+//cdn.optimizely.com/img/153957092/0ddbc5997b3046208da3793b038ddfcc.png
+- three
+//cdn.optimizely.com/img/153957092/296165a7731b4b3b9b9ed5c77bb723b9.png
+
+- awardWiningYellow
+//cdn.optimizely.com/img/153957092/f6ae213c213747ba8b8a398c6c515e33.png
+- TaxYellow
+//cdn.optimizely.com/img/153957092/0b33aca738fd47f490c798183fc7a984.png
+- ShortMarket yellow
+//cdn.optimizely.com/img/153957092/1e90bd60f0ce4183be574f9aac8fca39.png
+- Tight Spread Yellow
+//cdn.optimizely.com/img/153957092/41fea2b6e74a4711a2a9a2f45290048e.png
+- hero background
+//cdn.optimizely.com/img/153957092/13a8c3f7b30d4253994c2bde81d96261.jpg
+//cdn.optimizely.com/img/153957092/1c40074a684348068ca89dcf367bc60e.png
+
+
+- awardWinningBlack
+//cdn.optimizely.com/img/153957092/d65679de6cf6430c9faa040df6191eda.png
+- taxBlack
+//cdn.optimizely.com/img/153957092/5939d0f734ba47a0ad3375781a114f55.png
+- shortMarketBlack
+//cdn.optimizely.com/img/153957092/28b16ba1dbc142788f6b58a9a624888c.png
+- tightSpreadBlack
+//cdn.optimizely.com/img/153957092/6c6635ea91b84ad59de31096802c2a22.png
+
+
+
+
+
 
 
 
