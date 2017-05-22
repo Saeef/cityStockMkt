@@ -1,13 +1,14 @@
-(function(andRedEyelikeCityIndex, undefined) {
+(function(andRedEyelikeCityStockMkt, undefined) {
     var $ = window.jQuery;
     var SL = {};
-    SL.andRedEyelikeCityIndex = {
+    SL.andRedEyelikeCityStockMkt = {
         init: function() {
             this.pgCssDesktop();
             this.rowOne();
-            this.rowTwo();
+            this.email();
             this.mobile();
-            this.mobRescue();
+            this.mobShuffle();
+            
           
            
               
@@ -15,7 +16,9 @@
         }, //init
         pgCssDesktop: function() {
             console.info('%c pgCssDesktop \u221a', 'background:blue;color:white;');
-            var mainCss = '.enterEmail {float:left; display:inline-block; margin-right:15px; line-height:46px; vertical-align:middle; padding:15px 20px !important; height:46px !important; border-radius:3px !important; border:1px solid #e6e5e5 !important; width:55%; margin-top:-1px;} .cta-btn.blue.cta-btn.green.APPEND_MARKETING_CID_COOKIE {margin:0 0 10px 0;} .ticon {float:left; }  .tlink {text-decoration:none; margin:0;} .tlink h4 {margin:0; display:inline-block; color:#000; font-weight:600;} .tlink p {margin:0; color:#202020; display:flex;} ul.bet {list-style:none;} ul.bet li {margin-bottom:3.5em;} .retrade {height:162px !important;} @media screen and (min-width:768px) { .beneton {display:none;} }  .bet {display:block;} ';
+            var mainCss = '.enterEmail {float:left; display:inline-block; margin-right:15px; line-height:46px; vertical-align:middle; padding:15px 20px !important; height:46px !important; border-radius:3px !important; border:1px solid #e6e5e5 !important; width:55%; margin-top:.8em;} .cola {width:50%; float:left;} .cola.otra li {margin-bottom:2em;} .cta-btn.blue.cta-btn.green.APPEND_MARKETING_CID_COOKIE {margin:0 0 10px 0;} .ticon {float:left; }  .tlink {text-decoration:none; margin:0;} .tlink h4 {margin:0; display:inline-block; color:#000; font-weight:600;} .tlink p {margin:0; color:#202020; display:flex;} ul.bet {list-style:none;} ul.bet li {margin-bottom:3.5em;} .retrade {height:162px !important;} @media screen and (min-width:768px) { .beneton {display:none;} }  .bet {display:block;} .cola.otra p {display:flex; max-width:350px; margin:0;} .cola a {text-decoration:none;} ul {list-style:none;} img.spread {float:left; margin-right:15px;} .hero-two-section.hero__headline {margin:0 !important;} ul.pad-top-m {padding:0 !important;} .hero-two-section[data-is-page-title=true] .hero__headline, .hero-two-section[data-is-page-title=True] .hero__headline {font-size:2.2em; font-weight:600; margin-left:0;} .cola.otra h4 {line-height:10px; margin-bottom:5px; font-weight:bold;} .cola.otra p {line-height:18px;} .cola.otra h4:hover, .cola.otra p:hover, .cola.otra a:hover, .cola.otra:hover {color:#ffffff !important;} .section-wrapper.hero-two-section {background:rgba(0,0,0,.3) url(//cdn.optimizely.com/img/153957092/43b41322f92143c196e54e528458ee39.png) no-repeat top left; !important;  } .cola.otra ul {margin-top:10px;} .cola.otra li {margin-bottom:3em; }  ';
+
+
             var head = document.getElementsByTagName('head')[0];
 
             function addcss(css) {
@@ -30,66 +33,49 @@
  
         rowOne: function() {
             console.info('%c rowOne \u221a', 'background:blue;color:white;');
-            //bear
-            var xbe = document.querySelectorAll('.col-wrapper.wrapper')[0].children[1];
-            xbe.parentElement.removeChild(xbe);
-            var xone = document.createElement('div');
-            xone.className = 'col';
-            xone.innerHTML = ' <ul class="bet"> <li> <img class="ticon" src="//cdn.optimizely.com/img/153957092/392492b278f74d9ea47973f696f2da4e.png" alt="APPLY"> <a class="tlink" href="#" title="APPLY"> <h4>APPLY</h4> <p>Complete our application form</p></a> </li><li> <img class="ticon" src="//cdn.optimizely.com/img/153957092/8eca96af181b43b9b0dc1131cf4f8673.png" alt="FUND"> <a class="tlink" href="#" title="FUND"> <h4>FUND</h4> <p>Using your card or bank transfer</p></a> </li><li> <img class="ticon" src="//cdn.optimizely.com/img/153957092/8779b71d3a0e4262a5b4be2a0563e576.png" alt="Award Winning Platform"> <a class="tlink" href="#" title=“TRADE"> <h4>TRADE</h4> <p>On our fast, reliable platforms</p></a> </li></ul> ';
-            var ap = document.querySelectorAll('.col-wrapper.wrapper')[0];
-            ap.appendChild(xone);
+            var cola = document.querySelectorAll('.col')[0];
+            cola.className = 'cola';
+            var xwrapper = document.querySelectorAll('.col-wrapper.wrapper')[0];
+            //div
+            var div = document.createElement('div');
+            div.className = "cola otra";
+            div.innerHTML = ' <ul> <li> <img class="spread" src="//cdn.optimizely.com/img/153957092/52b38d9275414c69afc689b528b09263.png" alt="Open an account"> <a href="#" title="Open an account"> <h4>Open an account</h4> <p>Fill in our short online application form. It only takes a few minutes.</p></a> </li><li> <img class="spread" src="//cdn.optimizely.com/img/153957092/254f7eeefefa487ea5f06e9a51c89027.png" alt="Fund your account"> <a href="#" title="Fund your account"> <h4>Fund your account</h4> <p>Once your account is open, transfer funds to be able to place your first trade.</p></a> </li><li> <img class="spread" src="//cdn.optimizely.com/img/153957092/e069819b59474dfb897d387efe1f6763.png" alt="Start trading"> <a href="#" title="Start trading"> <h4>Start trading</h4> <p>You\'re ready to place your first trade with us.</p></a> </li></ul> ';
 
-            //part2
+            xwrapper.appendChild(div);
+
+            //leftside
+            var ylef = document.querySelectorAll('.hero__headline')[0];
+            ylef.innerText = 'Tight Spreads on UK, US, EU and Asian Stock Markets';
+            var dlef = document.querySelectorAll('.hero__description')[0];
+            dlef.innerText = "Speculate on price movement of thousands of global Stocks with a Spread Betting or CFD Trading account.";
+
+           
+
+        },//rowOne
+
+        email: function() {
+            console.info('%c email \u221a', 'background:blue;color:white;');
             var email = document.createElement('input');
             email.setAttribute('type', 'text');
             email.name = 'email';
             email.className = "enterEmail";
             email.setAttribute('placeholder', 'Enter your email address');
+            var trade = document.
+            querySelectorAll('.blue.APPEND_MARKETING_CID_COOKIE.cta-btn ')[0];
+            trade.parentElement.insertBefore(email,trade);
+            var demo = document.querySelectorAll('.APPEND_MARKETING_CID_COOKIE')[1];
+            demo.style.textDecoration = 'underline';
 
-            var rem = document.querySelectorAll('.cta-btn-group ')[0].children[1];
-            rem.parentElement.removeChild(rem);
-            var han = document.querySelectorAll('.cta-btn-group')[0].children[0];
-            han.parentElement.insertBefore(email,han);
-
-        },//rowOne
-
-        rowTwo: function() {
-            console.info('%c rowTwo \u221a', 'background:blue;color:white;');
-            //titles
-            var he = document.querySelectorAll('.multi-col__subtitle');
-            var he1 = document.querySelectorAll('.multi-col__subtitle')[0];
-            he1.innerText = "Open an account";
-            var he2 = document.querySelectorAll('.multi-col__subtitle')[1];
-            he2.innerText = "Fund your account";
-            var he3 = document.querySelectorAll('.multi-col__subtitle')[2];
-            he3.innerText = "Start trading";
-            //desc
-            var de = document.querySelectorAll('.multi-col__description');
-            var de1 = document.querySelectorAll('.multi-col__description')[0];
-            de1.innerText = "You can apply for an account right now by filling in our short online application form. It only takes a few minutes";
-            var de2 = document.querySelectorAll('.multi-col__description')[1];
-            de2.innerText = "Once your account is open, you need to transfer funds into it to be able to place your first trade.";
-            var de3 = document.querySelectorAll('.multi-col__description')[2];
-            de3.innerText = "You're ready to place your first trade with us.";
-
-            //same height
-            var xc = document.querySelectorAll('.col');
-            var xcone = document.querySelectorAll('.col')[2];
-            xcone.className += " retrade";
-            var xctwo = document.querySelectorAll('.col')[3];
-            xctwo.className += " retrade";
-            var xcthree = document.querySelectorAll('.col')[4];
-            xcthree.className += " retrade";
-
-            //undesire out
-            var ee = document.querySelectorAll('.section-wrapper.multi-col-section')[0]
-            ee.parentElement.removeChild(ee);
-
+            //undersires
+            var under = document.
+            querySelectorAll('.section-wrapper.multi-col-section')[1];
+            under.parentElement.removeChild(under);
+          
         },//rowTwo
 
         mobile: function() {
             console.info('%c mobile \u221a', 'background:blue;color:white;');
-            var mainCss = '@media screen and (max-width:780px) { .enterEmail {float:none; margin-right:0; width:100%; margin-top:1.2em; margin-bottom:1em;} .desktop-only {display:block !important; margin-top:.3em; padding-bottom:1.2em;} ul.bet {padding:0; -webkit-padding-start:0; -moz-padding-start:0; -o-padding-start:0; -ms-padding-start:0;}  .bet {display:none;} #beneton {background-color:transparent;} ul.beneton {-webkit-padding-start:0; -moz-padding-start:0; -o-padding-start:0; -ms-padding-start:0; padding: 0 20px;} .beneton {display:block; margin-top:2em; margin-bottom:2.5em;} .beneton li {margin-bottom:1em; list-style:none;} .beneton li img {margin-right:10px;} }';
+            var mainCss = '@media screen and (max-width:780px) { .enterEmail {float:none; margin-right:0; width:100%; margin-top:1.2em; margin-bottom:1em;} .desktop-only {display:block !important; margin-top:.3em; padding-bottom:1.2em;} ul.bet {padding:0; -webkit-padding-start:0; -moz-padding-start:0; -o-padding-start:0; -ms-padding-start:0;}  .bet {display:none;} #beneton {background-color:transparent;} ul.beneton {-webkit-padding-start:0; -moz-padding-start:0; -o-padding-start:0; -ms-padding-start:0; padding: 0 20px;} .beneton {display:block; margin-top:2em; margin-bottom:1.5em;} .beneton li {margin-bottom:1em; list-style:none;} .beneton li img {margin-right:10px;} .cola {width:100%;} .section-wrapper.hero-two-section {background-color:rgba(0,0,0,.9);} .section-wrapper.hero-two-section div.wrapper .cola.otra {display:none;} .beneton .cola {display:none;} .beneton .cola.otra {display:block;} .cola.otra h4 {color:#000;} .cola.otra p {color:#000;} .cola.otra ul {padding-left:0; margin:0 2em;} .cola.otra ul li:first-child {margin-top:1.25em;} input.enterEmail {margin-bottom:5px; width:96%;} .blue.APPEND_MARKETING_CID_COOKIE.cta-btn {width:96%;} .utility-nav__login .cta-btn {margin-right:30px;}  }';
             var head = document.getElementsByTagName('head')[0];
 
             function addcss(css) {
@@ -101,29 +87,25 @@
             addcss(mainCss);
 
 
-
-
-
         },//mobile
 
-        mobRescue: function() {
-            console.info('%c mobRescue \u221a', 'background:blue;color:white;');
-            var rescue = document.querySelectorAll('.col')[1];
-            var resclone = rescue.cloneNode(true);
-            var divclone = document.createElement('div');
-            divclone.id = "beneton";
-            divclone.className = "beneton";
-            divclone.appendChild(resclone);
-            //bet displaynone
-            //hand
-            var g = document.querySelectorAll('.section-wrapper.hero-two-section')[0];
-            g.parentElement.insertBefore(divclone,g.nextSibling);
-            var be = document.getElementById('beneton');
-            be.children[0].children[0].className = "beneton";
+        mobShuffle: function() {
+            console.info('%c mobShuffle \u221a', 'background:blue;color:white;');
+            var clone = document.
+            querySelectorAll('.section-wrapper.hero-two-section .wrapper')[0].cloneNode(true);
+            var shuff = document.createElement('div');
+            shuff.className = "beneton";
+            shuff.appendChild(clone);
+            var par = document.querySelectorAll('.page-content')[0];
+            var han = document.querySelectorAll('.section-wrapper.hero-two-section')[0];
+            par.insertBefore(shuff,han.nextSibling);
 
 
-        }//mobRescue
 
+
+        }//mobShuffle
+
+       
        
 
        
@@ -134,12 +116,12 @@
     (function() {
 
         setTimeout(function() {
-            SL.andRedEyelikeCityIndex.init();
-        }, 10);
+            SL.andRedEyelikeCityStockMkt.init();
+        }, 50);
 
     })();
 
 
 
 
-}.call(window.andRedEyelikeCityIndex || {}));
+}.call(window.andRedEyelikeCityStockMkt || {}));
