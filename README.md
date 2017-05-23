@@ -100,6 +100,16 @@ Adding an email capture form will make the call to action more prominent and wil
 
 
 
+### metrics
+
+- Logo clicks =>  $('.utility-nav__logo')[0]  | same across all three
+- Login Button =>  $('.utility-nav__item-btn')[0]; | same across all three
+- Email Clicks => $('.enterEmail')[0]  | Variation 1 and 2 only
+- Trade Now CTA = > $('.hero-two-section .blue.cta-btn')[0] | all three
+- Demo CTA = >  $('.hero-two-section a[href="/demo-account/"]')   | all three
+
+
+
 
 
 

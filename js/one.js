@@ -9,6 +9,7 @@
             this.mobile();
             this.mobShuffle();
             this.onResize();
+            this.bindCookie();
             
           
            
@@ -188,7 +189,23 @@
                  
                 
 
-        }//onResize
+        },//onResize
+
+
+         bindCookie: function() {
+           var handler = document.querySelectorAll('.hero-two-section .cta-btn.blue')[0];
+           handler.addEventListener('click', function(e) {
+                var email = document.querySelectorAll('.hero-two-section input.enterEmail')[0];
+              if(email.value !== null) {
+                if (email.value.indexOf('@') > -1) {
+                                        document.cookie = "emailSaved=" + email.value + "path=/; domain=cityindex.co.uk";                
+                }//contains at
+              }//null
+          
+          });
+        
+        
+        }//bindCookie
 
        
        
