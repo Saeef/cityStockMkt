@@ -30,31 +30,31 @@ src/Stock Market control mobile.png
 
 
 <kbd>mobile</kbd>  :mag:            
- ![](sr/Stock-Market V1.png)
+ ![](sr/aStock-Market V1.png)
  
  
  <kbd>mobile</kbd>  :mag:            
- ![](src/Stock-Market V2.png)
+ ![](src/aStock-Market V2.png)
  
 
 <kbd>desktop</kbd> :mag:          
-![](/src/Stock Market control mobile.png)
+![](/src/aStock Market control mobile.png)
 
 
 <kbd>desktop</kbd> :mag:          
-![](src/Stock-Market V1 Mobile.png)
+![](src/aStock-Market V1 Mobile.png)
 
 
 
 
 <kbd>desktop</kbd> :mag:          
-![](src/desktopv1.png)
+![](src/adesktopv1.png)
 
 <kbd>mobile</kbd>  :mag:            
- ![](src/Stock-Market V1.png)
+ ![](src/aStock-Market V1.png)
 
 <kbd>desktop</kbd> :mag:          
-![](src/desktopv1.png)
+![](src/adesktopv1.png)
 
 
 
