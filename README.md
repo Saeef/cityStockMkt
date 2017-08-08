@@ -30,7 +30,7 @@ see testPlan
  
  
  <kbd>mobile</kbd>  :mag:            
- ![](src/aStock-Market V2.png)
+ ![](src/aStock-Market%20V2.png)
  
 
 <kbd>desktop</kbd> :mag:          
