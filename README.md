@@ -22,17 +22,29 @@ see testPlan
 - IE10+
 
 
+src/Stock-Market V1.png
+src/Stock-Market V2.png
+src/Stock Market control.png
+src/Stock-Market V1 Mobile.png
+src/Stock Market control mobile.png
+
+
 <kbd>mobile</kbd>  :mag:            
  ![](sr/Stock-Market V1.png)
  
+ 
  <kbd>mobile</kbd>  :mag:            
- ![](/src/cityStockMkt/src/Stock-Market V2.png)
+ ![](src/Stock-Market V2.png)
+ 
 
 <kbd>desktop</kbd> :mag:          
 ![](/src/Stock Market control mobile.png)
 
+
 <kbd>desktop</kbd> :mag:          
-![](/src/Stock Market control.png)
+![](src/Stock-Market V1 Mobile.png)
+
+
 
 
 <kbd>desktop</kbd> :mag:          
