@@ -25,19 +25,19 @@ see testPlan
 
 
 
-<kbd>mobile</kbd>  :mag:            
- ![](src/aStock-Market%20V1.png)<br/>
+<kbd>desktop</kbd>  :mag:            
+ ![](src/aStock-Market%20V1.png)<br/>  <hr/>
  
  
- <kbd>mobile</kbd>  :mag:            
- ![](src/aStock-Market%20V2.png)<br/>
+ <kbd>desktop</kbd>  :mag:            
+ ![](src/aStock-Market%20V2.png)<br/>  <hr/>
  
 
-<kbd>desktop</kbd> :mag:          
-![](src/aStock%20Market%20control%20mobile.png)<br/>
+<kbd>mobile</kbd> :mag:          
+![](src/aStock%20Market%20control%20mobile.png)<br/>  <hr/>
 
 
-<kbd>desktop</kbd> :mag:          
+<kbd>mobile</kbd> :mag:          
 ![](src/aStock-Market%20V1%20Mobile.png)
 
 
