@@ -26,7 +26,7 @@ see testPlan
  ![](sr/Stock-Market V1.png)
  
  <kbd>mobile</kbd>  :mag:            
- ![](src/cityStockMkt/src/Stock-Market V2.png)
+ ![](/src/cityStockMkt/src/Stock-Market V2.png)
 
 <kbd>desktop</kbd> :mag:          
 ![](/src/Stock Market control mobile.png)
