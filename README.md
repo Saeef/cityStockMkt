@@ -26,7 +26,7 @@ see testPlan
 
 
 <kbd>mobile</kbd>  :mag:            
- ![](src/aStock-Market V1.png)
+ ![](src/aStock-Market%20V1.png)
  
  
  <kbd>mobile</kbd>  :mag:            
