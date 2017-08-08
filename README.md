@@ -23,26 +23,26 @@ see testPlan
 
 
 <kbd>mobile</kbd>  :mag:            
- ![](/images/Stock-Market V1.png)
+ ![](images/Stock-Market V1.png)
  
  <kbd>mobile</kbd>  :mag:            
- ![](/images/Stock-Market V2.png)
+ ![](images/Stock-Market V2.png)
 
 <kbd>desktop</kbd> :mag:          
-![](/images/Stock Market control mobile.png)
+![](images/Stock Market control mobile.png)
 
 <kbd>desktop</kbd> :mag:          
-![](/images/Stock Market control.png)
+![](images/Stock Market control.png)
 
 
 <kbd>desktop</kbd> :mag:          
-![](/images/desktopv1.png)
+![](images/desktopv1.png)
 
 <kbd>mobile</kbd>  :mag:            
- ![](/images/Stock-Market V1.png)
+ ![](images/Stock-Market V1.png)
 
 <kbd>desktop</kbd> :mag:          
-![](/images/desktopv1.png)
+![](images/desktopv1.png)
 
 
 
